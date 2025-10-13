@@ -1,6 +1,6 @@
 # Go-Lab
-Name: Changyu Jia <br>
-Student ID: C00292876 <br>
+**Name**: Changyu Jia <br>
+**Student ID**: C00292876 <br>
 
 ## Overview
 The examples in this repository showcase different approaches to handling concurrency in Go, including barriers, mutexes, semaphores, atomic operations, and channel-based synchronization.
