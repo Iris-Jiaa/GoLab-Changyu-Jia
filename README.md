@@ -14,6 +14,10 @@ The examples in this repository showcase different approaches to handling concur
 - A simple concurrent counter using mutexes and wait groups for synchronization.
 ### [rendezvous](./rendezvous/rendezvous.go)
 - Rendezvous pattern implementation using channels and mutexes for synchronization.
+### [dinPhil](./dinPhil_disruptCycle/dinPhil.go)
+- Dining Philosophers problem: Philosophers alternate between thinking and eating while sharing limited forks, with a semaphore used to manage resource access.
+### [gol](./go_gol/gol.go)
+- Conway's Game of Life simulation using coroutines for parallel processing.
 
 ## Getting Started
 
@@ -27,3 +31,5 @@ go run barrier.go
 go run barrier2.go
 go run mutex.go
 go run rendezvous.go
+go run dinPhil.go
+go run gol.go
